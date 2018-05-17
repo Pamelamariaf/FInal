@@ -1,0 +1,427 @@
+body{
+	width: 100%;
+		background-color:#3FA9CB;
+		height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+	.row {
+  display: flex;
+  
+
+}
+.row1{
+	margin-top: -120px;
+}
+
+.column-1, .column-2, .column-3,.column-4{
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+  margin-top:25px;
+  padding: 20px;
+  background-color:none;
+  flex-direction: column ;
+
+   }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+}
+
+
+@font-face {
+	src:url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Luckiest+Guy');
+}
+
+
+h2{
+	  font-size:4em;
+	  color:white;
+    font-family:'Just Another Hand', cursive;
+	  
+}
+.row div img {
+  width: 100%
+}
+
+.row2{
+	display: flex;
+
+
+}
+
+img {
+	width: 30%;
+	height: auto;
+	margin-top:-3%;
+}
+
+
+
+
+
+.logo{
+
+	width: 20%;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	
+	
+
+}
+
+
+.hola{
+	background-color: #B4CE39;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    color:#7E8E0C;
+    text-align: center;
+    width: 100%;
+    justify-content:space-around;
+    padding:0.5%;
+	font-size:2em;
+	overflow: hidden;
+	
+	
+}
+.topnava{
+	font-size: 40px;
+	text-align: center;
+	
+	
+}
+
+.topnava a{
+	margin-left: 30px;
+
+}
+.topnav a:hover {
+  background-color:#7E8E0C;
+  color:white;
+
+}
+
+.topnav a.active {
+  background-color:#7E8E0C;
+  color: white;
+
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+#navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:25px;
+
+}
+.parrafo{
+	width:40%;
+	padding-left:30%;
+	font-family: 'Just Another Hand', cursive;
+
+}
+
+a {
+	text-decoration:none;
+	color: white;
+	padding:0.5%;
+	font-family: 'Just Another Hand', cursive;
+
+
+}
+a.active{
+	background-color:#7E8E0C;}
+
+
+ a:hover{
+	background-color: #7E8E0C;
+	font-family: 'Just Another Hand', cursive;
+}
+
+.canasta {;
+    width:60%;
+    height:30%;
+    margin-top:-2%;
+    margin-bottom:2%;
+}
+
+ .register{
+ 	width: 100%;
+ 	
+
+ }
+
+ article{
+ 	margin-top:10%;
+ }
+
+
+ .article2 {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(2,6,3,0.5);
+  font-family: 'Just Another Hand', cursive;
+
+}
+
+.map{
+	flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  margin-top: -8%;
+
+}
+.topnav {
+  overflow: hidden;
+  margin-top: -55px;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+.container {
+    border-radius: 5px;
+    
+    padding: 20px;
+}
+
+.visitanos{
+	font-size:40px;
+	margin-top:5%; 
+	margin-bottom:5%;
+}
+
+.info{
+	margin-left:30%;
+}
+ 
+footer{
+	font-family: 'Just Another Hand', cursive;
+	color:white;
+}
+
+.footer2{
+    font-family: 'Just Another Hand', cursive;
+    size:10px;
+    margin-top:5%;
+}
+
+
+.proceso3{
+  width: 100%;
+  margin-bottom:10%;
+  margin-top:10%;
+
+}
+.lapices{
+    width: 10%;
+  margin-bottom:10%;
+  margin-top:10%;
+}
+
